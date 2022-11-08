@@ -1,0 +1,30 @@
+==684== Jump to the invalid address stated on the next line
+==684==    at 0x1030: ???
+==684==    by 0x40083BA: open_verify.constprop.0 (dl-load.c:1536)
+==684==    by 0x4008C15: open_path (dl-load.c:1827)
+==684==    by 0x400A7A2: _dl_map_object (dl-load.c:2067)
+==684==    by 0x400F504: openaux (dl-deps.c:64)
+==684==    by 0x401DC19: _dl_catch_exception (dl-error-skeleton.c:208)
+==684==    by 0x400F952: _dl_map_object_deps (dl-deps.c:248)
+==684==    by 0x4004063: dl_main (rtld.c:1805)
+==684==    by 0x401CBAA: _dl_sysdep_start (dl-sysdep.c:252)
+==684==    by 0x400204B: _dl_start_final (rtld.c:449)
+==684==    by 0x400204B: _dl_start (rtld.c:539)
+==684==    by 0x4001107: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+==684==  Address 0x1030 is not stack'd, malloc'd or (recently) free'd
+==684== 
+==684== 
+==684== Process terminating with default action of signal 11 (SIGSEGV)
+==684==  Bad permissions for mapped region at address 0x1030
+==684==    at 0x1030: ???
+==684==    by 0x40083BA: open_verify.constprop.0 (dl-load.c:1536)
+==684==    by 0x4008C15: open_path (dl-load.c:1827)
+==684==    by 0x400A7A2: _dl_map_object (dl-load.c:2067)
+==684==    by 0x400F504: openaux (dl-deps.c:64)
+==684==    by 0x401DC19: _dl_catch_exception (dl-error-skeleton.c:208)
+==684==    by 0x400F952: _dl_map_object_deps (dl-deps.c:248)
+==684==    by 0x4004063: dl_main (rtld.c:1805)
+==684==    by 0x401CBAA: _dl_sysdep_start (dl-sysdep.c:252)
+==684==    by 0x400204B: _dl_start_final (rtld.c:449)
+==684==    by 0x400204B: _dl_start (rtld.c:539)
+==684==    by 0x4001107: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)

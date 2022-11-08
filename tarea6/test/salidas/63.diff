@@ -1,0 +1,107 @@
+0a1,96
+> ==719== Conditional jump or move depends on uninitialised value(s)
+> ==719==    at 0x1105D3: estaEnCP(unsigned int, _rep_colaDePrioridad*) (colaDePrioridad.cpp:251)
+> ==719==    by 0x1102A7: insertarEnCP(unsigned int, double, _rep_colaDePrioridad*) (colaDePrioridad.cpp:182)
+> ==719==    by 0x10986D: main (principal.cpp:184)
+> ==719== 
+> ==719== Invalid read of size 8
+> ==719==    at 0x112192: realInfo(_rep_info*) (info.cpp:41)
+> ==719==    by 0x10FD91: filtradoDescendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:99)
+> ==719==    by 0x110592: eliminarPrioritario(_rep_colaDePrioridad*) (colaDePrioridad.cpp:239)
+> ==719==    by 0x1098C7: main (principal.cpp:188)
+> ==719==  Address 0x4da8748 is 8 bytes inside a block of size 16 free'd
+> ==719==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==719==    by 0x11216A: liberarInfo(_rep_info*) (info.cpp:37)
+> ==719==    by 0x10FE8D: filtradoDescendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:109)
+> ==719==    by 0x110592: eliminarPrioritario(_rep_colaDePrioridad*) (colaDePrioridad.cpp:239)
+> ==719==    by 0x1098C7: main (principal.cpp:188)
+> ==719==  Block was alloc'd at
+> ==719==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==719==    by 0x112124: copiaInfo(_rep_info*) (info.cpp:32)
+> ==719==    by 0x10FC5C: filtradoAscendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:80)
+> ==719==    by 0x1103EC: insertarEnCP(unsigned int, double, _rep_colaDePrioridad*) (colaDePrioridad.cpp:202)
+> ==719==    by 0x10986D: main (principal.cpp:184)
+> ==719== 
+> ==719== Invalid read of size 8
+> ==719==    at 0x112131: copiaInfo(_rep_info*) (info.cpp:33)
+> ==719==    by 0x10FE58: filtradoDescendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:107)
+> ==719==    by 0x110592: eliminarPrioritario(_rep_colaDePrioridad*) (colaDePrioridad.cpp:239)
+> ==719==    by 0x1098C7: main (principal.cpp:188)
+> ==719==  Address 0x4da8748 is 8 bytes inside a block of size 16 free'd
+> ==719==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==719==    by 0x11216A: liberarInfo(_rep_info*) (info.cpp:37)
+> ==719==    by 0x10FE8D: filtradoDescendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:109)
+> ==719==    by 0x110592: eliminarPrioritario(_rep_colaDePrioridad*) (colaDePrioridad.cpp:239)
+> ==719==    by 0x1098C7: main (principal.cpp:188)
+> ==719==  Block was alloc'd at
+> ==719==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==719==    by 0x112124: copiaInfo(_rep_info*) (info.cpp:32)
+> ==719==    by 0x10FC5C: filtradoAscendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:80)
+> ==719==    by 0x1103EC: insertarEnCP(unsigned int, double, _rep_colaDePrioridad*) (colaDePrioridad.cpp:202)
+> ==719==    by 0x10986D: main (principal.cpp:184)
+> ==719== 
+> ==719== Invalid read of size 8
+> ==719==    at 0x112135: copiaInfo(_rep_info*) (info.cpp:33)
+> ==719==    by 0x10FE58: filtradoDescendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:107)
+> ==719==    by 0x110592: eliminarPrioritario(_rep_colaDePrioridad*) (colaDePrioridad.cpp:239)
+> ==719==    by 0x1098C7: main (principal.cpp:188)
+> ==719==  Address 0x4da8740 is 0 bytes inside a block of size 16 free'd
+> ==719==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==719==    by 0x11216A: liberarInfo(_rep_info*) (info.cpp:37)
+> ==719==    by 0x10FE8D: filtradoDescendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:109)
+> ==719==    by 0x110592: eliminarPrioritario(_rep_colaDePrioridad*) (colaDePrioridad.cpp:239)
+> ==719==    by 0x1098C7: main (principal.cpp:188)
+> ==719==  Block was alloc'd at
+> ==719==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==719==    by 0x112124: copiaInfo(_rep_info*) (info.cpp:32)
+> ==719==    by 0x10FC5C: filtradoAscendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:80)
+> ==719==    by 0x1103EC: insertarEnCP(unsigned int, double, _rep_colaDePrioridad*) (colaDePrioridad.cpp:202)
+> ==719==    by 0x10986D: main (principal.cpp:184)
+> ==719== 
+> ==719== Invalid read of size 4
+> ==719==    at 0x11217E: natInfo(_rep_info*) (info.cpp:39)
+> ==719==    by 0x10FE72: filtradoDescendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:108)
+> ==719==    by 0x110592: eliminarPrioritario(_rep_colaDePrioridad*) (colaDePrioridad.cpp:239)
+> ==719==    by 0x1098C7: main (principal.cpp:188)
+> ==719==  Address 0x4da8740 is 0 bytes inside a block of size 16 free'd
+> ==719==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==719==    by 0x11216A: liberarInfo(_rep_info*) (info.cpp:37)
+> ==719==    by 0x10FE8D: filtradoDescendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:109)
+> ==719==    by 0x110592: eliminarPrioritario(_rep_colaDePrioridad*) (colaDePrioridad.cpp:239)
+> ==719==    by 0x1098C7: main (principal.cpp:188)
+> ==719==  Block was alloc'd at
+> ==719==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==719==    by 0x112124: copiaInfo(_rep_info*) (info.cpp:32)
+> ==719==    by 0x10FC5C: filtradoAscendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:80)
+> ==719==    by 0x1103EC: insertarEnCP(unsigned int, double, _rep_colaDePrioridad*) (colaDePrioridad.cpp:202)
+> ==719==    by 0x10986D: main (principal.cpp:184)
+> ==719== 
+> ==719== Invalid free() / delete / delete[] / realloc()
+> ==719==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==719==    by 0x11216A: liberarInfo(_rep_info*) (info.cpp:37)
+> ==719==    by 0x10FE8D: filtradoDescendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:109)
+> ==719==    by 0x110592: eliminarPrioritario(_rep_colaDePrioridad*) (colaDePrioridad.cpp:239)
+> ==719==    by 0x1098C7: main (principal.cpp:188)
+> ==719==  Address 0x4da8740 is 0 bytes inside a block of size 16 free'd
+> ==719==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==719==    by 0x11216A: liberarInfo(_rep_info*) (info.cpp:37)
+> ==719==    by 0x10FE8D: filtradoDescendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:109)
+> ==719==    by 0x110592: eliminarPrioritario(_rep_colaDePrioridad*) (colaDePrioridad.cpp:239)
+> ==719==    by 0x1098C7: main (principal.cpp:188)
+> ==719==  Block was alloc'd at
+> ==719==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==719==    by 0x112124: copiaInfo(_rep_info*) (info.cpp:32)
+> ==719==    by 0x10FC5C: filtradoAscendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:80)
+> ==719==    by 0x1103EC: insertarEnCP(unsigned int, double, _rep_colaDePrioridad*) (colaDePrioridad.cpp:202)
+> ==719==    by 0x10986D: main (principal.cpp:184)
+> ==719== 
+43c139,145
+< 43>Fin.
+---
+> 43>==719== 128 bytes in 8 blocks are definitely lost in loss record 13 of 13
+> ==719==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==719==    by 0x112124: copiaInfo(_rep_info*) (info.cpp:32)
+> ==719==    by 0x10FE58: filtradoDescendente(_rep_colaDePrioridad*&, unsigned int) (colaDePrioridad.cpp:107)
+> ==719==    by 0x110592: eliminarPrioritario(_rep_colaDePrioridad*) (colaDePrioridad.cpp:239)
+> ==719==    by 0x1098C7: main (principal.cpp:188)
+> ==719== 

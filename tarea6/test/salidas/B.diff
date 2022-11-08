@@ -1,0 +1,23 @@
+1,13c1,8
+< 1>Se cambió el criterio de prioridad.
+< 2>Se intenta insertar 1 con prioridad 2.00.
+< 3>Se cambió el criterio de prioridad.
+< 4>En la cp está 1.
+< 5>El prioritario es 1
+< 6>Se intenta insertar 2 con prioridad 10.00.
+< 7>Se intenta insertar 3 con prioridad 9.00.
+< 8>Se intenta insertar 4 con prioridad 8.00.
+< 9>Se intenta insertar 5 con prioridad 7.00.
+< 10>El prioritario es 1
+< 11>Se cambió el criterio de prioridad.
+< 12>El prioritario es 2
+< 13>Fin.
+---
+> ==677== Jump to the invalid address stated on the next line
+> ==677==    at 0x1030: ???
+> ==677==  Address 0x1030 is not stack'd, malloc'd or (recently) free'd
+> ==677== 
+> ==677== 
+> ==677== Process terminating with default action of signal 11 (SIGSEGV)
+> ==677==  Bad permissions for mapped region at address 0x1030
+> ==677==    at 0x1030: ???
