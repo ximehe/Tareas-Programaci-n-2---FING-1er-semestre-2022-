@@ -1,0 +1,35 @@
+1,3c1,30
+< 1>#  implementar _rep_iterador, crearIterador, liberarIterador, estaDefinidaActual.
+< 2>Actual de it NO está definida.
+< 3>Fin.
+---
+> ==498== Jump to the invalid address stated on the next line
+> ==498==    at 0x1030: ???
+> ==498==    by 0x40083BA: open_verify.constprop.0 (dl-load.c:1536)
+> ==498==    by 0x4008C15: open_path (dl-load.c:1827)
+> ==498==    by 0x400A7A2: _dl_map_object (dl-load.c:2067)
+> ==498==    by 0x400F504: openaux (dl-deps.c:64)
+> ==498==    by 0x401DC19: _dl_catch_exception (dl-error-skeleton.c:208)
+> ==498==    by 0x400F952: _dl_map_object_deps (dl-deps.c:248)
+> ==498==    by 0x4004063: dl_main (rtld.c:1805)
+> ==498==    by 0x401CBAA: _dl_sysdep_start (dl-sysdep.c:252)
+> ==498==    by 0x400204B: _dl_start_final (rtld.c:449)
+> ==498==    by 0x400204B: _dl_start (rtld.c:539)
+> ==498==    by 0x4001107: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+> ==498==  Address 0x1030 is not stack'd, malloc'd or (recently) free'd
+> ==498== 
+> ==498== 
+> ==498== Process terminating with default action of signal 11 (SIGSEGV)
+> ==498==  Bad permissions for mapped region at address 0x1030
+> ==498==    at 0x1030: ???
+> ==498==    by 0x40083BA: open_verify.constprop.0 (dl-load.c:1536)
+> ==498==    by 0x4008C15: open_path (dl-load.c:1827)
+> ==498==    by 0x400A7A2: _dl_map_object (dl-load.c:2067)
+> ==498==    by 0x400F504: openaux (dl-deps.c:64)
+> ==498==    by 0x401DC19: _dl_catch_exception (dl-error-skeleton.c:208)
+> ==498==    by 0x400F952: _dl_map_object_deps (dl-deps.c:248)
+> ==498==    by 0x4004063: dl_main (rtld.c:1805)
+> ==498==    by 0x401CBAA: _dl_sysdep_start (dl-sysdep.c:252)
+> ==498==    by 0x400204B: _dl_start_final (rtld.c:449)
+> ==498==    by 0x400204B: _dl_start (rtld.c:539)
+> ==498==    by 0x4001107: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)

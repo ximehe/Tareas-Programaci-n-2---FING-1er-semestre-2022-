@@ -1,0 +1,62 @@
+1,30c1,30
+< 1>#  implementar insertarEnColCadenas.
+< 2>La cantidad en la cadena 0 es 0.
+< 3>La cantidad en la cadena 9 es 0.
+< 4>Se insertó (3,3.00) en la cadena 0.
+< 5>3 está en la cadena 0.
+< 6>3 no está en la cadena 1.
+< 7>Se insertó (3,13.10) en la cadena 9.
+< 8>Se insertó (3,13.10) en la cadena 5.
+< 9>La cantidad en la cadena 0 es 1.
+< 10>La cantidad en la cadena 1 es 0.
+< 11>La cantidad en la cadena 5 es 1.
+< 12>La cantidad en la cadena 9 es 1.
+< 13>3 está en la cadena 9.
+< 14>3 está en la cadena 5.
+< 15>Se insertó (8,8.00) en la cadena 0.
+< 16>Se insertó (9,9.00) en la cadena 0.
+< 17>Se insertó (5,5.00) en la cadena 5.
+< 18>Se insertó (6,6.00) en la cadena 5.
+< 19>Se insertó (7,7.00) en la cadena 5.
+< 20>Se insertó (4,4.00) en la cadena 9.
+< 21>La cantidad en la cadena 0 es 3.
+< 22>La cantidad en la cadena 1 es 0.
+< 23>La cantidad en la cadena 5 es 4.
+< 24>La cantidad en la cadena 9 es 2.
+< 25>9 está en la cadena 0.
+< 26>9 no está en la cadena 5.
+< 27>6 está en la cadena 5.
+< 28>4 no está en la cadena 0.
+< 29>4 está en la cadena 9.
+< 30>Fin.
+---
+> ==470== Jump to the invalid address stated on the next line
+> ==470==    at 0x1030: ???
+> ==470==    by 0x40083BA: open_verify.constprop.0 (dl-load.c:1536)
+> ==470==    by 0x4008C15: open_path (dl-load.c:1827)
+> ==470==    by 0x400A7A2: _dl_map_object (dl-load.c:2067)
+> ==470==    by 0x400F504: openaux (dl-deps.c:64)
+> ==470==    by 0x401DC19: _dl_catch_exception (dl-error-skeleton.c:208)
+> ==470==    by 0x400F952: _dl_map_object_deps (dl-deps.c:248)
+> ==470==    by 0x4004063: dl_main (rtld.c:1805)
+> ==470==    by 0x401CBAA: _dl_sysdep_start (dl-sysdep.c:252)
+> ==470==    by 0x400204B: _dl_start_final (rtld.c:449)
+> ==470==    by 0x400204B: _dl_start (rtld.c:539)
+> ==470==    by 0x4001107: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+> ==470==  Address 0x1030 is not stack'd, malloc'd or (recently) free'd
+> ==470== 
+> ==470== 
+> ==470== Process terminating with default action of signal 11 (SIGSEGV)
+> ==470==  Bad permissions for mapped region at address 0x1030
+> ==470==    at 0x1030: ???
+> ==470==    by 0x40083BA: open_verify.constprop.0 (dl-load.c:1536)
+> ==470==    by 0x4008C15: open_path (dl-load.c:1827)
+> ==470==    by 0x400A7A2: _dl_map_object (dl-load.c:2067)
+> ==470==    by 0x400F504: openaux (dl-deps.c:64)
+> ==470==    by 0x401DC19: _dl_catch_exception (dl-error-skeleton.c:208)
+> ==470==    by 0x400F952: _dl_map_object_deps (dl-deps.c:248)
+> ==470==    by 0x4004063: dl_main (rtld.c:1805)
+> ==470==    by 0x401CBAA: _dl_sysdep_start (dl-sysdep.c:252)
+> ==470==    by 0x400204B: _dl_start_final (rtld.c:449)
+> ==470==    by 0x400204B: _dl_start (rtld.c:539)
+> ==470==    by 0x4001107: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)

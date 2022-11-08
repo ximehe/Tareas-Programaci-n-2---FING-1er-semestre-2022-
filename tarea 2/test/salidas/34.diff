@@ -1,0 +1,24 @@
+1,14c1,8
+< 1>#  implementar actualEnIterador.
+< 2>Reiniciando it.
+< 3>Actual de it NO está definida.
+< 4>Agregando 5 a it.
+< 5>Reiniciando it.
+< 6>Actual de it está definida.
+< 7>El actual de it es 5.
+< 8>Agregando 5 a it.
+< 9>Agregando 6 a it.
+< 10>Agregando 7 a it.
+< 11>Reiniciando it.
+< 12>Actual de it está definida.
+< 13>El actual de it es 5.
+< 14>Fin.
+---
+> ==519== Jump to the invalid address stated on the next line
+> ==519==    at 0x1030: ???
+> ==519==  Address 0x1030 is not stack'd, malloc'd or (recently) free'd
+> ==519== 
+> ==519== 
+> ==519== Process terminating with default action of signal 11 (SIGSEGV)
+> ==519==  Bad permissions for mapped region at address 0x1030
+> ==519==    at 0x1030: ???

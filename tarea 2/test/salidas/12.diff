@@ -1,0 +1,11 @@
+27a28,37
+> ==435== 80 bytes in 1 blocks are definitely lost in loss record 1 of 4
+> ==435==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==435==    by 0x10A271: crearColCadenas() (colCadenas.cpp:13)
+> ==435==    by 0x109317: main (principal.cpp:51)
+> ==435== 
+> ==435== 400 (24 direct, 376 indirect) bytes in 1 blocks are definitely lost in loss record 4 of 4
+> ==435==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==435==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+> ==435==    by 0x109846: main (principal.cpp:141)
+> ==435== 

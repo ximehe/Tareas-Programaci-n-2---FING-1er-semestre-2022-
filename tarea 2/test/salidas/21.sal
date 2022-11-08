@@ -1,0 +1,11 @@
+1>#  implementar _rep_colCadenas, crearColCadenas, liberarColCadenas, cantidadColCadenas, estaEnColCadenas.
+2>La cantidad en la cadena 0 es 0.
+3>La cantidad en la cadena 9 es 0.
+4>5 no está en la cadena 0.
+5>5 no está en la cadena 9.
+6>Fin.
+==463== 80 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==463==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==463==    by 0x10A271: crearColCadenas() (colCadenas.cpp:13)
+==463==    by 0x109317: main (principal.cpp:51)
+==463== 

@@ -1,0 +1,295 @@
+==449== Invalid read of size 8
+==449==    at 0x109E59: cantidadEnCadena(_rep_cadena*) (cadena.cpp:57)
+==449==    by 0x10A21C: imprimirCadena(_rep_cadena*) (cadena.cpp:245)
+==449==    by 0x109A34: main (principal.cpp:171)
+==449==  Address 0x4da7df8 is 8 bytes inside a block of size 24 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A14E: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:199)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 8
+==449==    at 0x10A22B: imprimirCadena(_rep_cadena*) (cadena.cpp:247)
+==449==    by 0x109A34: main (principal.cpp:171)
+==449==  Address 0x4da7df0 is 0 bytes inside a block of size 24 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A14E: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:199)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 4
+==449==    at 0x10A8D5: infoATexto(_rep_info*) (info.cpp:49)
+==449==    by 0x10AA56: imprimirInfo(_rep_info*) (info.cpp:76)
+==449==    by 0x10A235: imprimirCadena(_rep_cadena*) (cadena.cpp:247)
+==449==    by 0x109A34: main (principal.cpp:171)
+==449==  Address 0x4da7e50 is 0 bytes inside a block of size 16 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A836: liberarInfo(_rep_info*) (info.cpp:37)
+==449==    by 0x10A134: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:198)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A7B5: crearInfo(unsigned int, double) (info.cpp:25)
+==449==    by 0x109FBA: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:119)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 8
+==449==    at 0x10A8F3: infoATexto(_rep_info*) (info.cpp:51)
+==449==    by 0x10AA56: imprimirInfo(_rep_info*) (info.cpp:76)
+==449==    by 0x10A235: imprimirCadena(_rep_cadena*) (cadena.cpp:247)
+==449==    by 0x109A34: main (principal.cpp:171)
+==449==  Address 0x4da7e58 is 8 bytes inside a block of size 16 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A836: liberarInfo(_rep_info*) (info.cpp:37)
+==449==    by 0x10A134: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:198)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A7B5: crearInfo(unsigned int, double) (info.cpp:25)
+==449==    by 0x109FBA: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:119)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 8
+==449==    at 0x10A23A: imprimirCadena(_rep_cadena*) (cadena.cpp:248)
+==449==    by 0x109A34: main (principal.cpp:171)
+==449==  Address 0x4da7df8 is 8 bytes inside a block of size 24 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A14E: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:199)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 8
+==449==    at 0x109EB8: estaEnCadena(unsigned int, _rep_cadena*) (cadena.cpp:80)
+==449==    by 0x1097B8: main (principal.cpp:136)
+==449==  Address 0x4da7df8 is 8 bytes inside a block of size 24 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A14E: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:199)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 8
+==449==    at 0x109F5F: estaEnCadena(unsigned int, _rep_cadena*) (cadena.cpp:104)
+==449==    by 0x1097B8: main (principal.cpp:136)
+==449==  Address 0x4da7df0 is 0 bytes inside a block of size 24 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A14E: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:199)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 4
+==449==    at 0x10A84A: natInfo(_rep_info*) (info.cpp:39)
+==449==    by 0x109F69: estaEnCadena(unsigned int, _rep_cadena*) (cadena.cpp:104)
+==449==    by 0x1097B8: main (principal.cpp:136)
+==449==  Address 0x4da7e50 is 0 bytes inside a block of size 16 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A836: liberarInfo(_rep_info*) (info.cpp:37)
+==449==    by 0x10A134: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:198)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A7B5: crearInfo(unsigned int, double) (info.cpp:25)
+==449==    by 0x109FBA: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:119)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 8
+==449==    at 0x109E59: cantidadEnCadena(_rep_cadena*) (cadena.cpp:57)
+==449==    by 0x109764: main (principal.cpp:131)
+==449==  Address 0x4da7df8 is 8 bytes inside a block of size 24 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A14E: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:199)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 8
+==449==    at 0x109FFB: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:130)
+==449==    by 0x109846: main (principal.cpp:141)
+==449==  Address 0x4da7e00 is 16 bytes inside a block of size 24 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A14E: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:199)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 8
+==449==    at 0x10A16A: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:204)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Address 0x4da7df0 is 0 bytes inside a block of size 24 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A14E: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:199)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 4
+==449==    at 0x10A84A: natInfo(_rep_info*) (info.cpp:39)
+==449==    by 0x10A174: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:204)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Address 0x4da7e50 is 0 bytes inside a block of size 16 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A836: liberarInfo(_rep_info*) (info.cpp:37)
+==449==    by 0x10A134: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:198)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A7B5: crearInfo(unsigned int, double) (info.cpp:25)
+==449==    by 0x109FBA: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:119)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 8
+==449==    at 0x10A1A8: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:210)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Address 0x4da7df8 is 8 bytes inside a block of size 24 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A14E: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:199)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 8
+==449==    at 0x10A1B8: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:211)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Address 0x4da7df0 is 0 bytes inside a block of size 24 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A14E: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:199)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid free() / delete / delete[] / realloc()
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A836: liberarInfo(_rep_info*) (info.cpp:37)
+==449==    by 0x10A1C2: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:211)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Address 0x4da7e50 is 0 bytes inside a block of size 16 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A836: liberarInfo(_rep_info*) (info.cpp:37)
+==449==    by 0x10A134: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:198)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A7B5: crearInfo(unsigned int, double) (info.cpp:25)
+==449==    by 0x109FBA: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:119)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid free() / delete / delete[] / realloc()
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A1D8: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:212)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Address 0x4da7df0 is 0 bytes inside a block of size 24 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A14E: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:199)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 8
+==449==    at 0x109F2D: estaEnCadena(unsigned int, _rep_cadena*) (cadena.cpp:92)
+==449==    by 0x1097B8: main (principal.cpp:136)
+==449==  Address 0x4da7df0 is 0 bytes inside a block of size 24 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A14E: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:199)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+==449== Invalid read of size 4
+==449==    at 0x10A84A: natInfo(_rep_info*) (info.cpp:39)
+==449==    by 0x109F37: estaEnCadena(unsigned int, _rep_cadena*) (cadena.cpp:92)
+==449==    by 0x1097B8: main (principal.cpp:136)
+==449==  Address 0x4da7e50 is 0 bytes inside a block of size 16 free'd
+==449==    at 0x483D1CF: operator delete(void*, unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A836: liberarInfo(_rep_info*) (info.cpp:37)
+==449==    by 0x10A134: removerDeCadena(unsigned int, _rep_cadena*) (cadena.cpp:198)
+==449==    by 0x1099E6: main (principal.cpp:167)
+==449==  Block was alloc'd at
+==449==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==449==    by 0x10A7B5: crearInfo(unsigned int, double) (info.cpp:25)
+==449==    by 0x109FBA: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:119)
+==449==    by 0x109846: main (principal.cpp:141)
+==449== 
+1>#  implementar removerDeCadena.
+2>Se insertó (5,5.00) al inicio de la cadena.
+3>(5,5.00)
+4>Se removió la primera aparición de 5 de la cadena.
+5>#  se removió el único.
+6>(5,5.00)
+7>5 está en la cadena.
+8>La cantidad es 1.
+9>Se insertó (5,5.00) al inicio de la cadena.
+10>(5,5.00)(5,5.00)
+11>La cantidad es 2.
+12>El elemento es (5,5.00)
+13>Se insertó (1,11.10) al inicio de la cadena.
+14>Se insertó (0,0.00) al inicio de la cadena.
+15>Se insertó (5,15.50) al inicio de la cadena.
+16>(5,15.50)(0,0.00)(1,11.10)(5,5.00)(5,5.00)
+17>Se removió la primera aparición de 5 de la cadena.
+18>#  se removió el primero de los 5, que además es el primero de la cadena.
+19>(5,15.50)(0,0.00)(1,11.10)(5,5.00)
+20>5 está en la cadena.
+21>La cantidad es 4.
+22>El elemento es (1,11.10)
+23>El elemento es (0,0.00)
+24>El elemento es (5,15.50)
+25>Se removió la primera aparición de 5 de la cadena.
+26>#  se removió el último.
+27>(5,15.50)(0,0.00)(1,11.10)(5,5.00)
+28>5 está en la cadena.
+29>La cantidad es 4.
+30>Se insertó (2,2.00) al inicio de la cadena.
+31>(2,2.00)(5,15.50)(0,0.00)(1,11.10)(5,5.00)
+32>Se removió la primera aparición de 0 de la cadena.
+33>#  se removió un elemento intermedio.
+34>(2,2.00)(5,15.50)(1,11.10)(5,5.00)
+35>0 no está en la cadena.
+36>El elemento es (1,11.10)
+37>El elemento es (2,2.00)
+38>La cantidad es 4.
+39>Se insertó (8,8.00) al inicio de la cadena.
+40>Se insertó (3,3.00) al inicio de la cadena.
+41>Se insertó (7,7.00) al inicio de la cadena.
+42>Se insertó (4,4.00) al inicio de la cadena.
+43>Se insertó (6,6.00) al inicio de la cadena.
+44>Se insertó (1,1.00) al inicio de la cadena.
+45>Se insertó (5,1.00) al inicio de la cadena.
+46>Se insertó (7,17.00) al inicio de la cadena.
+47>(7,17.00)(5,1.00)(1,1.00)(6,6.00)(4,4.00)(7,7.00)(3,3.00)(8,8.00)(2,2.00)(5,15.50)(1,11.10)(5,5.00)
+48>El elemento es (7,17.00)
+49>La cantidad es 12.
+50>Se removió la primera aparición de 7 de la cadena.
+51>#  se removió el primero de los 7, que NO es el primero de la cadena.
+52>(7,17.00)(5,1.00)(1,1.00)(6,6.00)(4,4.00)(3,3.00)(8,8.00)(2,2.00)(5,15.50)(1,11.10)(5,5.00)
+53>La cantidad es 11.
+54>7 está en la cadena.
+55>El elemento es (7,17.00)
+56>

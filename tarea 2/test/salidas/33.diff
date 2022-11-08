@@ -1,0 +1,44 @@
+1,12c1,30
+< 1>#  implementar reiniciarIterador.
+< 2>Reiniciando it.
+< 3>Actual de it NO está definida.
+< 4>Agregando 5 a it.
+< 5>Reiniciando it.
+< 6>Actual de it está definida.
+< 7>Agregando 5 a it.
+< 8>Agregando 5 a it.
+< 9>Agregando 5 a it.
+< 10>Reiniciando it.
+< 11>Actual de it está definida.
+< 12>Fin.
+---
+> ==512== Jump to the invalid address stated on the next line
+> ==512==    at 0x1030: ???
+> ==512==    by 0x40083BA: open_verify.constprop.0 (dl-load.c:1536)
+> ==512==    by 0x4008C15: open_path (dl-load.c:1827)
+> ==512==    by 0x400A7A2: _dl_map_object (dl-load.c:2067)
+> ==512==    by 0x400F504: openaux (dl-deps.c:64)
+> ==512==    by 0x401DC19: _dl_catch_exception (dl-error-skeleton.c:208)
+> ==512==    by 0x400F952: _dl_map_object_deps (dl-deps.c:248)
+> ==512==    by 0x4004063: dl_main (rtld.c:1805)
+> ==512==    by 0x401CBAA: _dl_sysdep_start (dl-sysdep.c:252)
+> ==512==    by 0x400204B: _dl_start_final (rtld.c:449)
+> ==512==    by 0x400204B: _dl_start (rtld.c:539)
+> ==512==    by 0x4001107: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+> ==512==  Address 0x1030 is not stack'd, malloc'd or (recently) free'd
+> ==512== 
+> ==512== 
+> ==512== Process terminating with default action of signal 11 (SIGSEGV)
+> ==512==  Bad permissions for mapped region at address 0x1030
+> ==512==    at 0x1030: ???
+> ==512==    by 0x40083BA: open_verify.constprop.0 (dl-load.c:1536)
+> ==512==    by 0x4008C15: open_path (dl-load.c:1827)
+> ==512==    by 0x400A7A2: _dl_map_object (dl-load.c:2067)
+> ==512==    by 0x400F504: openaux (dl-deps.c:64)
+> ==512==    by 0x401DC19: _dl_catch_exception (dl-error-skeleton.c:208)
+> ==512==    by 0x400F952: _dl_map_object_deps (dl-deps.c:248)
+> ==512==    by 0x4004063: dl_main (rtld.c:1805)
+> ==512==    by 0x401CBAA: _dl_sysdep_start (dl-sysdep.c:252)
+> ==512==    by 0x400204B: _dl_start_final (rtld.c:449)
+> ==512==    by 0x400204B: _dl_start (rtld.c:539)
+> ==512==    by 0x4001107: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)

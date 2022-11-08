@@ -1,0 +1,35 @@
+0a1,15
+> ==540== Invalid read of size 8
+> ==540==    at 0x10A0E6: primeroEnCadena(_rep_cadena*) (cadena.cpp:170)
+> ==540==    by 0x1098B1: main (principal.cpp:147)
+> ==540==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+> ==540== 
+> ==540== 
+> ==540== Process terminating with default action of signal 11 (SIGSEGV)
+> ==540==  Access not within mapped region at address 0x0
+> ==540==    at 0x10A0E6: primeroEnCadena(_rep_cadena*) (cadena.cpp:170)
+> ==540==    by 0x1098B1: main (principal.cpp:147)
+> ==540==  If you believe this happened as a result of a stack
+> ==540==  overflow in your program's main thread (unlikely but
+> ==540==  possible), you can try to increase the size of the
+> ==540==  main thread stack using the --main-stacksize= flag.
+> ==540==  The main thread stack size used in this run was 8388608.
+8,17c23,29
+< 8>La cantidad es 1.
+< 9>El primero es (7,7.00)
+< 10>(7,7.00)
+< 11>Se insertó (8,8.00) al inicio de la cadena.
+< 12>Se insertó (6,6.00) al inicio de la cadena.
+< 13>Se removió el primer elemento de la cadena.
+< 14>La cantidad es 2.
+< 15>El primero es (8,8.00)
+< 16>(8,8.00)(7,7.00)
+< 17>Fin.
+---
+> 8>La cantidad es 0.
+> 9>El primero es ==540== 80 (48 direct, 32 indirect) bytes in 2 blocks are definitely lost in loss record 4 of 4
+> ==540==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==540==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+> ==540==    by 0x109846: main (principal.cpp:141)
+> ==540== 
+> Segmentation fault

@@ -1,0 +1,30 @@
+==470== Jump to the invalid address stated on the next line
+==470==    at 0x1030: ???
+==470==    by 0x40083BA: open_verify.constprop.0 (dl-load.c:1536)
+==470==    by 0x4008C15: open_path (dl-load.c:1827)
+==470==    by 0x400A7A2: _dl_map_object (dl-load.c:2067)
+==470==    by 0x400F504: openaux (dl-deps.c:64)
+==470==    by 0x401DC19: _dl_catch_exception (dl-error-skeleton.c:208)
+==470==    by 0x400F952: _dl_map_object_deps (dl-deps.c:248)
+==470==    by 0x4004063: dl_main (rtld.c:1805)
+==470==    by 0x401CBAA: _dl_sysdep_start (dl-sysdep.c:252)
+==470==    by 0x400204B: _dl_start_final (rtld.c:449)
+==470==    by 0x400204B: _dl_start (rtld.c:539)
+==470==    by 0x4001107: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)
+==470==  Address 0x1030 is not stack'd, malloc'd or (recently) free'd
+==470== 
+==470== 
+==470== Process terminating with default action of signal 11 (SIGSEGV)
+==470==  Bad permissions for mapped region at address 0x1030
+==470==    at 0x1030: ???
+==470==    by 0x40083BA: open_verify.constprop.0 (dl-load.c:1536)
+==470==    by 0x4008C15: open_path (dl-load.c:1827)
+==470==    by 0x400A7A2: _dl_map_object (dl-load.c:2067)
+==470==    by 0x400F504: openaux (dl-deps.c:64)
+==470==    by 0x401DC19: _dl_catch_exception (dl-error-skeleton.c:208)
+==470==    by 0x400F952: _dl_map_object_deps (dl-deps.c:248)
+==470==    by 0x4004063: dl_main (rtld.c:1805)
+==470==    by 0x401CBAA: _dl_sysdep_start (dl-sysdep.c:252)
+==470==    by 0x400204B: _dl_start_final (rtld.c:449)
+==470==    by 0x400204B: _dl_start (rtld.c:539)
+==470==    by 0x4001107: ??? (in /usr/lib/x86_64-linux-gnu/ld-2.31.so)

@@ -1,0 +1,18 @@
+==533== Invalid read of size 8
+==533==    at 0x10A0E6: primeroEnCadena(_rep_cadena*) (cadena.cpp:170)
+==533==    by 0x1098B1: main (principal.cpp:147)
+==533==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
+==533== 
+==533== 
+==533== Process terminating with default action of signal 11 (SIGSEGV)
+==533==  Access not within mapped region at address 0x0
+==533==    at 0x10A0E6: primeroEnCadena(_rep_cadena*) (cadena.cpp:170)
+==533==    by 0x1098B1: main (principal.cpp:147)
+==533==  If you believe this happened as a result of a stack
+==533==  overflow in your program's main thread (unlikely but
+==533==  possible), you can try to increase the size of the
+==533==  main thread stack using the --main-stacksize= flag.
+==533==  The main thread stack size used in this run was 8388608.
+1>#  implementar insertarAlFinal.
+2>Se insertó (5,5.00) al final de la cadena.
+3>El primero es Segmentation fault

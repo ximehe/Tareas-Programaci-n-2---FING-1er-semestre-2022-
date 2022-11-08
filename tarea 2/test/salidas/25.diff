@@ -1,0 +1,6 @@
+26a27,31
+> ==491== 520 (80 direct, 440 indirect) bytes in 1 blocks are definitely lost in loss record 3 of 3
+> ==491==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==491==    by 0x10A271: crearColCadenas() (colCadenas.cpp:13)
+> ==491==    by 0x109317: main (principal.cpp:51)
+> ==491== 

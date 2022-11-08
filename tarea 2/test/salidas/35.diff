@@ -1,0 +1,59 @@
+0a1,15
+> ==526== Invalid write of size 8
+> ==526==    at 0x10A5BE: avanzarIterador(_rep_iterador*) (iterador.cpp:136)
+> ==526==    by 0x109693: main (principal.cpp:117)
+> ==526==  Address 0x8 is not stack'd, malloc'd or (recently) free'd
+> ==526== 
+> ==526== 
+> ==526== Process terminating with default action of signal 11 (SIGSEGV)
+> ==526==  Access not within mapped region at address 0x8
+> ==526==    at 0x10A5BE: avanzarIterador(_rep_iterador*) (iterador.cpp:136)
+> ==526==    by 0x109693: main (principal.cpp:117)
+> ==526==  If you believe this happened as a result of a stack
+> ==526==  overflow in your program's main thread (unlikely but
+> ==526==  possible), you can try to increase the size of the
+> ==526==  main thread stack using the --main-stacksize= flag.
+> ==526==  The main thread stack size used in this run was 8388608.
+2,41c17
+< 2>Avanzando en it.
+< 3>Actual de it NO está definida.
+< 4>Reiniciando it.
+< 5>Avanzando en it.
+< 6>Actual de it NO está definida.
+< 7>Agregando 5 a it.
+< 8>Avanzando en it.
+< 9>Actual de it NO está definida.
+< 10>Reiniciando it.
+< 11>Actual de it está definida.
+< 12>El actual de it es 5.
+< 13>Avanzando en it.
+< 14>Actual de it NO está definida.
+< 15>Agregando 5 a it.
+< 16>Agregando 6 a it.
+< 17>Agregando 7 a it.
+< 18>Actual de it NO está definida.
+< 19>Avanzando en it.
+< 20>Reiniciando it.
+< 21>Actual de it está definida.
+< 22>El actual de it es 5.
+< 23>Avanzando en it.
+< 24>El actual de it es 5.
+< 25>Avanzando en it.
+< 26>El actual de it es 6.
+< 27>Avanzando en it.
+< 28>El actual de it es 7.
+< 29>Avanzando en it.
+< 30>Actual de it NO está definida.
+< 31>Reiniciando it.
+< 32>Actual de it está definida.
+< 33>El actual de it es 5.
+< 34>Avanzando en it.
+< 35>Avanzando en it.
+< 36>Avanzando en it.
+< 37>Actual de it está definida.
+< 38>El actual de it es 7.
+< 39>Avanzando en it.
+< 40>Actual de it NO está definida.
+< 41>Fin.
+---
+> 2>Segmentation fault

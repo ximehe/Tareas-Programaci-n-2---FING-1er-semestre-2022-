@@ -1,0 +1,29 @@
+4c4
+< 4>(5,5.00)
+---
+> 4>
+6,8c6,8
+< 6>(6,6.00)(5,5.00)
+< 7>(5,5.00)(6,6.00)
+< 8>(6,6.00)(5,5.00)
+---
+> 6>
+> 7>(6,6.00)(5,5.00)
+> 8>
+14,15c14,15
+< 14>(4,4.00)(7,7.00)(8,8.00)(9,6.00)(6,6.00)(5,5.00)(3,3.00)
+< 15>(3,3.00)(4,4.00)(7,7.00)(8,8.00)(9,6.00)(6,6.00)(5,5.00)
+---
+> 14>(3,3.00)(4,4.00)(7,7.00)(8,8.00)(9,6.00)(6,6.00)(5,5.00)
+> 15>
+16a17,26
+> ==547== 80 bytes in 1 blocks are definitely lost in loss record 1 of 4
+> ==547==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==547==    by 0x10A271: crearColCadenas() (colCadenas.cpp:13)
+> ==547==    by 0x109317: main (principal.cpp:51)
+> ==547== 
+> ==547== 280 (24 direct, 256 indirect) bytes in 1 blocks are definitely lost in loss record 4 of 4
+> ==547==    at 0x483BE63: operator new(unsigned long) (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+> ==547==    by 0x109FA3: insertarAlInicio(unsigned int, double, _rep_cadena*) (cadena.cpp:118)
+> ==547==    by 0x109846: main (principal.cpp:141)
+> ==547== 
